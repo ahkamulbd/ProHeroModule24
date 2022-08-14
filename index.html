@@ -36,7 +36,7 @@
                 <li>Carrot</li>
             </ul>
         </section>
-        <section>
+        <section id="places-container" class="yellow-bg text-center">
             <h1 id="places-title">Places I like to Visit</h1>
             <li class="important-places">Sundarban</li>
             <li class="important-places">Bandarban</li>
@@ -46,6 +46,7 @@
     </main>
 
     <script src="js/dom.js"></script>
+    <script src="js/styleInJs.js"></script>
     <script>
         // const student = {
         //     name: 'Abul',
@@ -59,13 +60,13 @@
         const liCollection = document.getElementsByTagName('li');
         //console.log(liCollection);
         for (const li of liCollection) {
-            console.log(li);
+            //console.log(li);
         }
 
         const allHeadings = document.getElementsByTagName('h1');
         for (const h1 of allHeadings) {
             //console.log(h1);
-            console.log(h1.innerText);
+            //console.log(h1.innerText);
         }
 
         const fruitsTitle = document.getElementById('fruits-title');
@@ -74,7 +75,7 @@
         const places = document.getElementsByClassName('important-places');
         for (const place of places) {
             //console.log(place);
-            console.log(place.innerText);
+            //console.log(place.innerText);
         }
 
         // querySeelectorAll
@@ -84,7 +85,7 @@
 
         for (const li of someLi) {
             //console.log(li);
-            console.log(li.innerText);
+            //console.log(li.innerText);
         }
     </script>
 </body>
