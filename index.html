@@ -28,7 +28,7 @@
                 <li>Dom Dere baba</li>
             </ul>
         </section>
-        <section>
+        <section class="fruits-container">
             <h1 id="fruits-title">Fruits I like</h1>
             <ul>
                 <li>Apple</li>
@@ -75,6 +75,16 @@
         for (const place of places) {
             //console.log(place);
             console.log(place.innerText);
+        }
+
+        // querySeelectorAll
+
+        const someLi = document.querySelectorAll('.fruits-container li');
+        //console.log(someLi);
+
+        for (const li of someLi) {
+            //console.log(li);
+            console.log(li.innerText);
         }
     </script>
 </body>
