@@ -18,7 +18,7 @@
     <header>
         <h1>Welcome to my DOM</h1>
     </header>
-    <main>
+    <main id="main-container">
         <section>
             <h1>My Awesome DOM de baba</h1>
             <ul>
@@ -38,15 +38,18 @@
         </section>
         <section id="places-container" class="yellow-bg text-center">
             <h1 id="places-title">Places I like to Visit</h1>
-            <li class="important-places">Sundarban</li>
-            <li class="important-places">Bandarban</li>
-            <li class="important-places">Rupaban</li>
-            <li>Supaban</li>
+            <ul id="places-list">
+                <li class="important-places">Sundarban</li>
+                <li class="important-places">Bandarban</li>
+                <li class="important-places">Rupaban</li>
+                <li>Supaban</li>
+            </ul>
         </section>
     </main>
 
     <script src="js/dom.js"></script>
     <script src="js/styleInJs.js"></script>
+    <script src="js/append.js"></script>
     <script>
         // const student = {
         //     name: 'Abul',
